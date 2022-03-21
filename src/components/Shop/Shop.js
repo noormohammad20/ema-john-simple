@@ -27,10 +27,8 @@ const Shop = () => {
                         handleAddToCart={handleAddToCart}
                     ></Product>)
                 }
-
-
-
             </div>
+
             <div className="cart-container">
                 <h5>Order Summary</h5>
                 <p>Selected Items: {cart.length}</p>

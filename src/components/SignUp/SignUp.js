@@ -40,7 +40,6 @@ const SignUp = () => {
 
     }
 
-
     return (
         <div className='form-container'>
             <div>

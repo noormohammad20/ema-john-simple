@@ -67,7 +67,7 @@ const Shop = () => {
                 <div className='pagination'>
                     {
                         [...Array(pageCount).keys()]
-                            .map(number => <button>{number + 1}</button>)
+                            .map(number => <button>{number}</button>)
                     }
                 </div>
             </div>
